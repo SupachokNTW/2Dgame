@@ -24,9 +24,9 @@ let volumeOn = true;
 let difficulty = "normal";
 
 let speedSettings = {
-    easy: 3,
-    normal: 4,
-    hard: 6
+    easy: 6,
+    normal: 9,
+    hard: 12
 };
 
 
@@ -914,4 +914,5 @@ window.onload = () => {
     document.querySelector(".game-container").style.display = "none";
 
     initGame();
+
 };
